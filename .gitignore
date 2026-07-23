@@ -6,4 +6,7 @@
 /storage/framework/cache/data/*
 /storage/framework/sessions/*
 /storage/framework/views/*
+/database/*.sqlite
+/database/*.sqlite-*
+/fuel4kids-release.zip
 .DS_Store
