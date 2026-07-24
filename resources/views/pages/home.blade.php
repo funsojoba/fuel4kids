@@ -79,12 +79,10 @@
     <section class="bg-white border-y border-brand-100">
         <div class="max-w-7xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-14 items-center">
             <div>
-                <span class="reveal text-sun-600 font-extrabold uppercase tracking-widest text-sm">A word from our Executive Director</span>
                 <h2 class="reveal font-display text-3xl sm:text-4xl font-bold text-brand-800 mt-3">Our Commitment</h2>
                 <p class="reveal mt-5 text-lg text-ink/75 leading-relaxed">
                     At Fuel4Kids Organization, we are committed to ensuring that no child goes without the nourishment, care, and support they need to thrive. Through compassionate service, meaningful partnerships, and community-driven initiatives, we provide nutritious food, essential resources, and opportunities that empower children.
                 </p>
-                <p class="reveal mt-4 font-semibold text-brand-700">— Joan Monzac, Executive Director</p>
                 <a href="{{ route('our-work') }}" class="reveal mt-7 inline-flex items-center gap-2 text-brand-700 font-extrabold hover:gap-3.5 transition-all">
                     See our work
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5-5 5M6 12h12"/></svg>
@@ -95,6 +93,8 @@
                     <source src="{{ asset('videos/fuel4kids_intro.mp4') }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+                <span class="reveal text-sun-600 font-extrabold uppercase tracking-widest text-sm">A word from our Executive Director</span>
+                <p class="reveal mt-4 font-semibold text-brand-700">— Joan Monzac, Executive Director</p>
             </div>
         </div>
     </section>
@@ -113,7 +113,7 @@
             ] as $region)
                 <div class="reveal bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition border border-brand-100 group">
                     <div class="overflow-hidden">
-                        <img src="{{ asset($region['img']) }}" alt="{{ $region['title'] }}" class="w-full h-52 object-cover group-hover:scale-105 transition duration-500">
+                        <img src="{{ asset($region['img']) }}" alt="{{ $region['title'] }}" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="font-display text-xl font-bold text-brand-800">{{ $region['title'] }}</h3>

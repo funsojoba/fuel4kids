@@ -163,8 +163,8 @@
     <footer class="bg-brand-900 text-brand-100">
         <div class="max-w-7xl mx-auto px-4 py-14 grid gap-10 md:grid-cols-4">
             <div class="md:col-span-2">
-                <span class="inline-block bg-cream rounded-xl px-4 py-2">
-                    <img src="{{ asset('images/logo.webp') }}" alt="Fuel4Kids" class="h-10 w-auto" onerror="this.style.display='none'; document.getElementById('footer-logo-text').classList.remove('hidden');">
+                <span class="inline-block bg-cream rounded-xl px-4 py-3">
+                    <img src="{{ asset('images/footer-logo.jpeg') }}" alt="Fuel4Kids Organization" class="w-56 h-auto" onerror="this.style.display='none'; document.getElementById('footer-logo-text').classList.remove('hidden');">
                     <span id="footer-logo-text" class="hidden font-display text-3xl font-bold text-brand-800">Fuel<span class="text-sun-500">4</span>Kids</span>
                 </span>
                 <p class="mt-4 max-w-md text-sm leading-relaxed">{{ config('fuel4kids.tagline') }} A community-based nonprofit serving students across the Greater Toronto and Hamilton Area — and communities beyond.</p>
