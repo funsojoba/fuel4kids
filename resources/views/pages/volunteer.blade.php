@@ -42,7 +42,7 @@
         </div>
     </section>
 
-    {{-- Volunteer form --}}
+    {{-- Volunteer form (temporarily disabled)
     <section class="max-w-3xl mx-auto px-4 py-20" id="volunteer-form">
         <div class="reveal bg-white rounded-[2rem] border border-brand-100 shadow-lg p-8 lg:p-12">
             <h2 class="font-display text-3xl font-bold text-brand-800">Ready to join us?</h2>
@@ -79,5 +79,6 @@
             </form>
         </div>
     </section>
+    --}}
 
 @endsection

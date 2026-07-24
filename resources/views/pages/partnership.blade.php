@@ -50,7 +50,7 @@
         </div>
     </section>
 
-    {{-- Partnership inquiry form --}}
+    {{-- Partnership inquiry form (temporarily disabled)
     <section class="max-w-3xl mx-auto px-4 py-20" id="partner-form">
         <div class="reveal bg-white rounded-[2rem] border border-brand-100 shadow-lg p-8 lg:p-12">
             <h2 class="font-display text-3xl font-bold text-brand-800">Become a partner</h2>
@@ -87,5 +87,6 @@
             </form>
         </div>
     </section>
+    --}}
 
 @endsection

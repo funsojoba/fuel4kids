@@ -9,10 +9,10 @@
         <div class="absolute inset-0 bg-gradient-to-r from-brand-900/90 via-brand-900/70 to-brand-900/40"></div>
         <div class="relative max-w-7xl mx-auto px-4 py-24 lg:py-36">
             <div class="max-w-2xl">
-                <span class="reveal inline-flex items-center gap-2 bg-white/10 text-sun-200 text-sm font-bold px-4 py-1.5 rounded-full uppercase tracking-wide">
+                {{-- <span class="reveal inline-flex items-center gap-2 bg-white/10 text-sun-200 text-sm font-bold px-4 py-1.5 rounded-full uppercase tracking-wide">
                     <span class="w-2 h-2 bg-sun-400 rounded-full animate-pulse"></span>
                     Canadian Registered Nonprofit
-                </span>
+                </span> --}}
                 <h1 class="reveal font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-6 leading-[1.08]">
                     Nourish the child.<br>
                     <span class="text-sun-300">Strengthen the village.</span>

@@ -69,14 +69,6 @@
 </head>
 <body class="font-sans text-ink bg-cream antialiased">
 
-    {{-- Top bar --}}
-    <div class="bg-brand-900 text-brand-100 text-xs sm:text-sm">
-        <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between gap-4">
-            <p class="truncate">A Canadian registered nonprofit serving children &amp; families — GTHA and beyond</p>
-            <a href="mailto:{{ config('fuel4kids.email') }}" class="hidden sm:block hover:text-white transition">{{ config('fuel4kids.email') }}</a>
-        </div>
-    </div>
-
     {{-- Navbar --}}
     <header class="sticky top-0 z-50 bg-cream/90 backdrop-blur border-b border-brand-100">
         <nav class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
@@ -171,7 +163,10 @@
     <footer class="bg-brand-900 text-brand-100">
         <div class="max-w-7xl mx-auto px-4 py-14 grid gap-10 md:grid-cols-4">
             <div class="md:col-span-2">
-                <span class="font-display text-3xl font-bold text-white">Fuel<span class="text-sun-400">4</span>Kids</span>
+                <span class="inline-block bg-cream rounded-xl px-4 py-2">
+                    <img src="{{ asset('images/logo.webp') }}" alt="Fuel4Kids" class="h-10 w-auto" onerror="this.style.display='none'; document.getElementById('footer-logo-text').classList.remove('hidden');">
+                    <span id="footer-logo-text" class="hidden font-display text-3xl font-bold text-brand-800">Fuel<span class="text-sun-500">4</span>Kids</span>
+                </span>
                 <p class="mt-4 max-w-md text-sm leading-relaxed">{{ config('fuel4kids.tagline') }} A community-based nonprofit serving students across the Greater Toronto and Hamilton Area — and communities beyond.</p>
                 <div class="flex gap-3 mt-6">
                     <a href="{{ config('fuel4kids.facebook') }}" target="_blank" rel="noopener" aria-label="Facebook" class="p-2.5 bg-white/10 rounded-full hover:bg-sun-400 hover:text-brand-900 transition">
